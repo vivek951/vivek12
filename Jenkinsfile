@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout') { 
             steps {
-                git 'https://github.com/cjpcloud/jarrepo.git'
+               git 'https://github.com/cjpcloud/jarrepo.git'
 
             }
         }
